@@ -6,7 +6,9 @@ To open the software:
 In the terminal, navigate to the directory where you have stored the files then enter the following three lines:
 
 g++ active_city.cpp -c
+
 g++ active_city.o -o active_city -lsfml-graphics -lsfml-window -lsfml-system -lcurl
+
 ./active_city
 
 Once in the application, use your cursor to select whatever city you would like to visit which should take you to the time/weather page and upon clicking the textbox (which should turn green indicating that it has been selected)
